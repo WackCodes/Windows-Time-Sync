@@ -1,0 +1,15 @@
+/*
+Proceed after installing "WindowsTimeSync.bat" file
+1) Open Task Scheduler
+2) Click on the "Task Scheduler Library" tree on the left side
+3) Click "Create Task" on the right side
+4) Set a respective name for the task and possibly a description
+5) Go to the "Triggers" tab and set the task to begin on Login
+	(Ive tried "On Startup", but I dont believe batch files can run before reaching the desktop)
+6) In the "Actions" tab, make sure "action" is set to "Start a program"
+	Select "Browse", and select the "WindowsTimeSync.bat" file.  
+7) In the "Conditions" tab, I recommend turning off "Start the Task only if the computer is on AC power", to be sure the command runs with no extra issues, especially if you use a laptop. 
+8) Ignore the settings tab unless desired
+
+That should conclude the required steps for this code to run after logging in
+*/
