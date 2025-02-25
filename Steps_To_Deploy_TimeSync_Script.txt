@@ -4,6 +4,7 @@ Proceed after installing "WindowsTimeSync.bat" file
 2) Click on the "Task Scheduler Library" tree on the left side
 3) Click "Create Task" on the right side
 4) Set a respective name for the task and possibly a description
+	(Make sure to select the box to "Run with Highest Privileges") 
 5) Go to the "Triggers" tab and set the task to begin on Login
 	(Ive tried "On Startup", but I dont believe batch files can run before reaching the desktop)
 6) In the "Actions" tab, make sure "action" is set to "Start a program"
